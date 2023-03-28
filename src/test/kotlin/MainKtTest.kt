@@ -15,7 +15,7 @@ class MainKtTest {
         val result =
             differentCommission(transfer = transfer, monthlyTransfers = monthlyTransfers, account = account)
 
-        assertEquals(0, result)
+        assertEquals(35, result)
     }
 
     @Test
@@ -39,7 +39,7 @@ class MainKtTest {
         val result =
             differentCommission(transfer = transfer, monthlyTransfers = monthlyTransfers, account = account)
 
-        assertEquals(35, result)
+        assertEquals(0, result)
     }
 
     @Test
